@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body id="idContacto"> 
+    <header>Cantera Azul</header>
+    <nav>
+        <ul>
+            <li><a href="./pages/ubicaion.html">Ubicación</a></a></li>
+            <li><a href="./pages/materiales.html">Materiales</a></li>
+            <li><a href="./pages/fletes.html">Fletes</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="contacto">
+        <div id="idTitulo"><legend>Datos de contacto</legend></div>
+        <form action="" method="post" class="formContacto">
+            <div class="nombre">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="idNombre" placeholder="Ingrese nombre y apellido" required>
+            </div>
+            <div class="numero">
+                <label for="numero">Numero de telefono</label>
+                <input type="number" name="idTelefono" id="idTelefono" placeholder="Número de teléfono">
+            </div>
+            <div class="correo">
+                <label for="email">Correo electronico</label>
+                <input type="email" id="idEmail" placeholder="email@gmail.com" required>
+            </div>
+            <div class="comprador">
+                <label for="opcion" id="idOpcion">Indique si es una empresa o comprador directo</label>
+            </div>
+            <div class="botones">
+                <label>
+                    <input type="radio" name="checkbox">Empresa
+                </label>
+                <label>
+                    <input type="radio" name="checkbox">Comprador directo 
+                </label>
+            </div>
+        </form>
+        <ul>
+            <li id="idVolverInicio"><a href="../index2.html"><input type="button" value="Volver a inicio"></a></li>
+        </ul>
+    </main>
+    <footer id="footerContacto">
+        Numero de contacto: (+598) 094877416 
+        <br>
+        Correo Electronico: canteraAzul@gmail.com
+    </footer>
+</body>
+</html>
