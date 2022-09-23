@@ -45,16 +45,7 @@ nav li a{
     height: 3vh;
 }
 
-#mainIndex{
-    grid-area: main;
-    display: grid;
-    grid-template-areas: "parrafo1 parrafo2 parrafo3"
-                         "parrafo1 parrafo2 parrafo3"
-                         "parrafo1 parrafo2 parrafo3";
-}
-
 #idParrafo1{
-    grid-area: parrafo1;
     text-align: center;
     font-size:2rem;
     color: white;
@@ -63,7 +54,6 @@ nav li a{
     padding: 0 10px 10px 10px;
 }
 #idParrafo2{
-    grid-area: parrafo2;
     text-align: center;
     justify-content: center;
     font-size:2rem;
@@ -72,8 +62,11 @@ nav li a{
     margin-right: 20px;
     padding: 0 10px 10px 10px;
 }
+#idParrafo2 ul{
+    list-style: none;
+    text-decoration: none;
+}
 #idParrafo3{
-    grid-area: parrafo3;
     text-align: center;
     justify-content: center;
     font-size:2rem;
