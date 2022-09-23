@@ -3,29 +3,18 @@ body{
     width: 100vw;
     height: 100vh;
 }
-#grilla{
-    display: grid;
-    grid-template-areas: "header header header header header"
-                         "nav nav nav nav nav"
-                         "legend legend legend legend legend"
-                         "main main main main main"
-                         "footer footer footer footer footer";
-                         
-}
+
 header{
-    grid-area: header;
-    width: 100vw;
     margin-bottom: 0.5%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color:#006691;
+    background-color:#006691; 
     color: white;
     padding: 0.7em;
     font-size:300%;
 }
 nav{
-    grid-area: nav;
     padding: 0.4em;
     background-color:#079EDE;
     border: 2px solid white;
@@ -48,10 +37,12 @@ nav li a{
     padding-left: 20px;
 }
 #idLegend{
-    grid-area: legend;
     font-size:2.5rem;
     color:white;
     text-align:center;
+}
+#espacio {
+    height: 3vh;
 }
 
 #mainIndex{
@@ -112,6 +103,15 @@ nav li a{
     text-align: center;
 
 }
+.listaFletes h3{
+    background-color: #006691;
+    color: white;
+}
+.listaFletes ul{
+    background-color:#eed2b2;
+    text-decoration: none;
+    list-style: none;
+}
 .introFletes{
     font-size:3rem;
     text-align: center;
@@ -121,31 +121,27 @@ nav li a{
 .listaFletes{
     color: black;
     font-size:2em;
-    display: flex;
-    flex-direction: row;
     text-align: center;
-    justify-content: space-around;
-
-
 }
 
 .cajasFletes{
     transition-timing-function: ease-in-out;
-}
-.cajasFletes:hover{
     transition: 1s;
+}
+
+.cajasFletes:hover{
     transform: scale(1.2);
-    transition-timing-function: ease-in-out;
 }
 
 footer{
-    grid-area: footer;
+    position: fixed;
+    bottom: 0;
     padding: 1em;
     border: 2px solid #CFA97E;
     color: white;
     font-size:2em;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 #idVolverInicio{
     list-style: none;
@@ -158,19 +154,10 @@ footer{
 #idContacto{
     background-color:#E6BC8C;
     width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: "header header header header"
-                         "nave nave nave nave"
-                         "main main main main "
-                         "footer footer footer footer";
-                         
+    height: 100vh;                      
 }
-.navContacto{
-    grid-area: nave;
-}
+
 .contacto{
-    grid-area: main;
     display: flex;
     flex-direction: column;
 }
@@ -208,11 +195,7 @@ label{
 #idOpcion{
     width:300px;
 }
-#footerContacto{
-    height: 100px;
-    position: relative;
-    bottom: -160px;
-}
+
 @media only screen and (min-width: 480px) and (max-width: 1023px) {
     
     main{
