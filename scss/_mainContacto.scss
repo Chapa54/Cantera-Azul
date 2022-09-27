@@ -1,0 +1,44 @@
+
+
+#idContacto{
+    background-color:#E6BC8C;
+    width: 100vw;
+    height: 100vh;
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        #idTitulo{
+            font-size:2.5rem;
+            margin-left:2%;
+            margin-top: 2%;
+            color:white;
+        }
+        .formContacto{
+            margin: 20px 10px 10px 40px;
+            .labels{
+                width:600px;
+                margin: 0px 10px 10px 10px; 
+                label{
+                    position: relative;
+                    display: inline-block;
+                    width: 150px;
+                    margin-left: 20px;
+                }
+                input{
+                    width: 200px;
+                }
+                #radio{
+                    width:15px;
+                }
+                #idOpcion{
+                    width:450px;
+                }
+                .botones{
+                    width:300px;
+                    margin: 10px 10px 10px 10px;
+                }
+            }
+            
+        }
+    }                      
+}

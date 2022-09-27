@@ -1,0 +1,218 @@
+#idVolverInicio {
+  position: absolute;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 30px;
+  top: 700px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  border: 2px solid #CFA97E;
+  color: white;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 0.5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #006691;
+  color: white;
+  padding: 0.7em;
+  font-size: 300%;
+}
+
+nav {
+  padding: 0.4em;
+  background-color: #079EDE;
+  border: 2px solid white;
+  width: 100vw;
+  height: 50px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  font-size: 150%;
+  padding-left: 10px;
+  font-size: 150%;
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+#idLegend {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+#espacio {
+  height: 3vh;
+}
+
+#idParrafo1 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+#idParrafo2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0 10px 10px 10px;
+}
+#idParrafo2 ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+#idParrafo3 {
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+#idTituloUbi {
+  margin: 3% 30% 2% 30%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  background-color: #006691;
+  width: 40%;
+}
+
+#idMapa {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  height: 40vh;
+}
+
+#idPUbicacion {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 3%;
+}
+
+#sectionMateriales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#idTitutloMateriales {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cajas {
+  background: linear-gradient(90deg, rgb(9, 121, 120) 0%, rgb(0, 212, 255) 100%);
+  width: 300px;
+  color: black;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.introFletes {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.listaFletes {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+.listaFletes h3 {
+  background-color: #006691;
+  color: white;
+}
+.listaFletes ul {
+  background-color: #eed2b2;
+  text-decoration: none;
+  list-style: none;
+}
+.listaFletes .cajasFletes {
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+}
+.listaFletes .cajasFletes:hover {
+  transform: scale(1.2);
+}
+
+#idContacto {
+  background-color: #E6BC8C;
+  width: 100vw;
+  height: 100vh;
+}
+#idContacto .contacto {
+  display: flex;
+  flex-direction: column;
+}
+#idContacto .contacto #idTitulo {
+  font-size: 2.5rem;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+}
+#idContacto .contacto .formContacto {
+  margin: 20px 10px 10px 40px;
+}
+#idContacto .contacto .formContacto .labels {
+  width: 600px;
+  margin: 0px 10px 10px 10px;
+}
+#idContacto .contacto .formContacto .labels label {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  margin-left: 20px;
+}
+#idContacto .contacto .formContacto .labels input {
+  width: 200px;
+}
+#idContacto .contacto .formContacto .labels #radio {
+  width: 15px;
+}
+#idContacto .contacto .formContacto .labels #idOpcion {
+  width: 450px;
+}
+#idContacto .contacto .formContacto .labels .botones {
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+}
+
+body {
+  background-color: #E6BC8C;
+}

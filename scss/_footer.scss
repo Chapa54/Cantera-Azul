@@ -1,0 +1,19 @@
+
+#idVolverInicio{
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    margin-left:30px;
+    top: 700px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
+    border: 2px solid map-get($paleta-colores,"footer");;
+    color: white;
+    font-size:2em;
+    display: flex;
+    flex-direction: column; 
+}

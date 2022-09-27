@@ -1,0 +1,41 @@
+
+
+header{
+    margin-bottom: 0.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:map-get($paleta-colores,"secundario"); 
+    color: white;
+    padding: 0.7em;
+    font-size:300%;
+}
+// Navegation:
+
+
+nav{
+    
+    padding: 0.4em;
+    background-color:map-get($paleta-colores,"navs");
+    border: 2px solid white;
+    width: 100vw;
+    height:50px;
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+
+        li{
+            font-size: 150%;
+            padding-left: 10px;
+            font-size: 150%;
+            list-style: none;
+
+            a{
+                color: white;
+                text-decoration: none;
+                padding-left: 20px;
+            }
+        }
+    }
+}
