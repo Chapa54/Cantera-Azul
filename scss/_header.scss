@@ -10,8 +10,6 @@ header{
     padding: 0.7em;
     font-size:300%;
 }
-// Navegation:
-
 
 nav{
     
@@ -26,10 +24,11 @@ nav{
         flex-direction: row;
 
         li{
-            font-size: 150%;
+            @extend resetLista;
             padding-left: 10px;
             font-size: 150%;
-            list-style: none;
+            
+            
 
             a{
                 color: white;

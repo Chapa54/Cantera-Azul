@@ -16,8 +16,7 @@
         }
         ul{
             background-color:#eed2b2;
-            text-decoration: none;
-            list-style: none;
+            @include resetLista;
         }
         .cajasFletes{
             transition-timing-function: ease-in-out;
